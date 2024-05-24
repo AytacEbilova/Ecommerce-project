@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.homePage {
+  background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .text {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    h2 {
+      font-weight: 900;
+      color: black;
+      font-family: "Blinker", sans-serif;
+      font-size: 60px;
+      margin: 0 0 8px;
+    }
+    p {
+      color: #333333;
+      font-size: 20px;
+      line-height: 35px;
+      font-family: "Mukta", sans-serif;
+    }
+    button {
+      width: 200px;
+      height: 50px;
+      background-color: #7971ea;
+      border-style: none;
+      border-radius: 5px;
+    }
+  }
+}
+
+.sect3 {
+  .imgCont {
+    width: 100%;
+    max-width: 800px;
+   
+    img{
+        color: #333333;
+    }
+  }
+  .text {
+    color: black;
+    p {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      font-weight: 900;
+    }
+    h2{
+        margin-bottom: 0.5rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+  }
+}
+.sect5{
+  .text{
+    h2{
+      color: #7971ea;
+      font-weight: 500;
+      line-height: 1.2;
+      font-family: "Mukta";
+      font-size: 32px;
+    }
+    p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      line-height: 1.7;
+    color: #8c92a0;
+    font-weight: 300;
+    font-size: 16px;
+    }
+    button{
+      width: 200px;
+      height: 50px;
+      background-color: #7971ea;
+      border-style: none;
+      border-radius: 5px;
+      color: white;
+      
+    }
+  }
+}
