@@ -11,6 +11,7 @@ import { TextField } from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import {Helmet} from "react-helmet";
 const Home = () => {
   const { data: products } = useGetProductsQuery();
   const [search, setSearch] = useState("");
@@ -46,6 +47,14 @@ const Home = () => {
   console.log(filteredData);
   return (
     <>
+    <div className="application">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Aytac Shop Site</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+            ...
+        </div>
       <section>
         <div className={styles.homePage}>
           <div className="container">
